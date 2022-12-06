@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Formulário</title>
+    <style>
+        body {
+            background-color: rgb(159, 236, 211);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .ef {
+            background-color: rgb(20, 20, 20);
+            color: rgb(241, 245, 247);
+        }
+        .sx {
+            background-color: rgb(20, 20, 20);
+            color: rgb(241, 245, 247);
+        }
+        .rh {
+            background-color: black;
+            color: white;
+        }
+        .cd {
+            background-color: white;
+            width: auto;
+            border: 1px solid black;
+            text-align: center;
+        }
+        h1 {
+            background-color: white;
+            width: auto;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Serviços DTI</h1>
+    <hr>
+    <form action="cadastro.php" method="get" autocomplete="on" target="_blank">
+        <fieldset>
+            <legend class="rh">Qual o seu Departamento:</legend>
+            <input type="radio" name="dep" id="idepFin" value="Fin">💵<label for="idepFin">Financeiro 4º Andar</label> <br>
+            <input type="radio" name="dep" id="idepSec" value="Sec">👩‍⚕️<label for="idepSec">Secretaria 4º Andar</label> <br>
+            <input type="radio" name="dep" id="idepRH" value="RH">👩‍💻<label for="idepRH">RH 3º Andar</label> <br>
+            <input type="radio" name="dep" id="idepLoi" value="Loi">⛪<label for="idepLoi">Locações Igrejas 3º Andar</label> <br>
+            <input type="radio" name="dep" id="ideploc">🏘️<label for="ideploc">Locações casas 3º andar</label> <br>
+            <input type="radio" name="dep" id="idepFlu" value="flu">🍆<label for="idepFlu">Apoio Fluig 2º Andar</label> <br>
+            <input type="radio" name="dep" id="idepNoi" value="Noi">💞<label for="idepNoi">Noivas e namorados 2º andar</label> <br>
+            <input type="radio" name="dep" id="idepcas" value="cas">👪🏻<label for="">Casamentos 2º Andar</label> <br>
+            <input type="radio" name="dep" id="idepvei" value="vei">🚗<labe>Apoio Veículos 2º Andar</labe>
+        </fieldset>
+        <h2 class="cd">Cadastre-se Aqui</h2>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="Nome" id="inome">
+            </p>
+            <p>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="Sobrenome" id="isobrenome">
+            </p>
+        
+        <fieldset>
+            <legend class="ef">Marque aqui o item ou itens que precisa de Ajuda</legend>
+            <input type="checkbox" name="imaimp" id="imaimp"><label for="imaimp">Impressora</label><br>
+            <input type="checkbox" name="retin" id="iretin"><label for="iretin">Tinta</label> <br> 
+            <input type="checkbox" name="redint" id="iredint"><label for="iredint">Internet</label> <br>
+            <input type="checkbox" name="incab" id="iincab"><label for="iincab">Cabo de Rede</label> <br>
+            <input type="checkbox" name="pccom" id="ipccom"><label for="ipccom">computador</label> <br>
+            <input type="checkbox" name="perrot" id="iperrot"><label for="iperrot">Roteador</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form> 
+</body>
+</html>
