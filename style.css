@@ -4,7 +4,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         .ef {
-            background-color: rgb(124, 106, 84);
+            background-color: rgb(90, 175, 224);
             color: rgb(241, 245, 247);
         }
         .sx {
@@ -12,19 +12,19 @@
             color: rgb(241, 245, 247);
         }
         .rh {
-            background-color: rgb(124, 106, 84);
+            background-color: rgb(89, 227, 231);
             color: white;
         }
         .cd {
-            background-color: rgb(233, 7, 7);
+            background-color: rgb(69, 205, 247);
             width: auto;
             border: 1px solid black;
             text-align: center;
         }
         h1 {
-            background-color: rgb(214, 7, 7);
+            background-color: rgb(71, 187, 233);
             width: auto;
-            border: 1px solid black;
+            border: 1px solid rgb(0, 0, 0);
             text-align: center;
         }
     </style>
