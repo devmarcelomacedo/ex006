@@ -1,6 +1,6 @@
 <style>
         body {
-            background-color:rgb(64, 126, 233);
+            background-color: rgb(12, 235, 160);
             font-family: Arial, Helvetica, sans-serif;
         }
         .ef {
@@ -16,13 +16,13 @@
             color: white;
         }
         .cd {
-            background-color: white;
+            background-color: rgb(218, 15, 15);
             width: auto;
             border: 1px solid black;
             text-align: center;
         }
         h1 {
-            background-color: white;
+            background-color: rgb(218, 15, 15);
             width: auto;
             border: 1px solid black;
             text-align: center;
